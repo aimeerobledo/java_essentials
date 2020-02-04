@@ -8,10 +8,10 @@ public class TareaBotellasAgua {
 			
 			{
 			   
-			   System.out.print("Cuantos minutos duaras en la ducha?");
+			   System.out.print("Cuantos minutos duraras en la ducha?");
 			   int Minutos = Input.get_int();
-			   int Botellas = Input.get_int();
-			   System.out.print("Botellas de agua usada: " + (Botellas * Minutos));
+			   int Botellas = 12 * Minutos;
+			   System.out.print("Botellas de agua usada: " + Botellas);
 			   
 			    
 			    
