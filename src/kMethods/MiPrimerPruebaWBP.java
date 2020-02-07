@@ -3,121 +3,103 @@ package kMethods;
 public class MiPrimerPruebaWBP {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
-		//Navegar a URL
-		NavegarURL("http://jobspec.ealumni4.net/");
-		//Seleccionar New Project
-		SelectNewProject("http://jobspec.ealumni4.net/ProjectOptions");
-		//IndresarSalesforceID
-		InsertSalesforceID("123456789ABCDEF");
-		//IngresarProjectName
-		InsertProjectName("Aimee test pci");	
-		//Ingresar Project Type
-		InsertProjectType("Law School");
-		//IngresarAccountExecutive
-		InserAccountExecutive("Aimee Robledo");
-		//IngresarBusinessDevelopmentAssociate
-		InserBusinessDevelopmentAssociate("Aimee Robledo");
-		//IngresarAlumniRecordCount
-		InserAlumniRecordCount(5);
-		//IngresarEstimatedRevenue
-		InserEstimatedRevenue(5);
-		//IngresarDatePCIReceivedSignedContract
-		InserDatePCIReceivedSignedContract(2/5/2020);
-		//IngresarContractPath
-		InserContractPath("Test");
-		//Save
-		ClikSave("clik");
+		
+		navegarURL("http://jobspec.ealumni4.net/");
+		selectNewProject("http://jobspec.ealumni4.net/ProjectOptions");	
+		insertSalesforceID("123456789ABCDEF");	
+		insertProjectName("Aimee test pci");	
+		insertProjectType("Law School");		
+		inserAccountExecutive("Aimee Robledo");		
+		inserBusinessDevelopmentAssociate("Aimee Robledo");		
+		inserAlumniRecordCount(5);		
+		inserEstimatedRevenue(5);		
+		inserDatePCIReceivedSignedContract(2/5/2020);		
+		inserContractPath("Test");
+		clikSave("clik");
 
 
 
 	}
 
-	private static void ClikSave(String Save) {
+	private static void clikSave(String save) {
 		// TODO Auto-generated method stub
 
 	}
 
-	private static void InserContractPath(String Archive) {
+	private static void inserContractPath(String archive) {
 		// TODO Auto-generated method stub
-		SearchArchive(Archive);
-		SelectArchive(Archive);
+		selectArchive(archive);
+		selectArchive(archive);
 	}
 
-	private static void SelectArchive(String archive) {
+	private static void selectArchive(String archive) {
 		// TODO Auto-generated method stub
 		
 	}
 
-	private static void SearchArchive(String archive) {
+	private static void inserDatePCIReceivedSignedContract(int date) {
 		// TODO Auto-generated method stub
 		
 	}
 
-	private static void InserDatePCIReceivedSignedContract(int Date) {
-		// TODO Auto-generated method stub
-		
-	}
-
-	private static void InserEstimatedRevenue(int quantity) {
+	private static void inserEstimatedRevenue(int quantity) {
 		// TODO Auto-generated method stub
 
 	}
 
-	private static void InserAlumniRecordCount(int quantity) {
+	private static void inserAlumniRecordCount(int quantity) {
 		// TODO Auto-generated method stub
 
 	}
 
-	private static void InserBusinessDevelopmentAssociate(String SelectDevelopment) {
+	private static void inserBusinessDevelopmentAssociate(String selectDevelopment) {
 		// TODO Auto-generated method stub
-		SearchDevelopment(SelectDevelopment);
+		searchDevelopment(selectDevelopment);
 	
 	}
 
-	private static void SearchDevelopment(String selectDevelopment) {
+	private static void searchDevelopment(String selectDevelopment) {
 		// TODO Auto-generated method stub
 		
 	}
 
-	private static void InserAccountExecutive(String SelectExecutive) {
+	private static void inserAccountExecutive(String selectExecutive) {
 		// TODO Auto-generated method stub
-		SearchExecutive(SelectExecutive);
+		searchExecutive(selectExecutive);
 
 	}
 
-	private static void SearchExecutive(String selectExecutive) {
-		// TODO Auto-generated method stub
-		
-	}
-
-	private static void InsertProjectType(String SelectType) {
-		// TODO Auto-generated method stub
-		SearchProjectType(SelectType);
-	}
-
-	private static void SearchProjectType(String string) {
+	private static void searchExecutive(String selectExecutive) {
 		// TODO Auto-generated method stub
 		
 	}
 
-	private static void InsertProjectName(String Nombre) {
+	private static void insertProjectType(String selectType) {
+		// TODO Auto-generated method stub
+		searchProjectType(selectType);
+	}
+
+	private static void searchProjectType(String string) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	private static void insertProjectName(String nombre) {
 		// TODO Auto-generated method stub
 
 	}
 
-	private static void InsertSalesforceID(String ID) {
+	private static void insertSalesforceID(String iD) {
 		// TODO Auto-generated method stub
 
 	}
 
-	private static void SelectNewProject(String clik) {
+	private static void selectNewProject(String clik) {
 		// TODO Auto-generated method stub
 
 	}
 
-	private static void NavegarURL(String Navegar) {
+	private static void navegarURL(String navegar) {
 		// TODO Auto-generated method stub
 
 	}
