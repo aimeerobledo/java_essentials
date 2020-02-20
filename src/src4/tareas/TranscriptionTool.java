@@ -26,6 +26,14 @@ public class TranscriptionTool {
 		usernameField.sendKeys("arobledo");
 		passwordField.sendKeys("Itzayana1227!");
 		loginButton.click();
+		
+		WebElement loggedInMessage = driver.findElement(By.xpath("//label[text()='Cowboys Testing(0009)']"));
+		if (loggedInMessage.getText().equals("Cowboys Testing(0009)"))
+			System.out.println("Test Passed");
+		else
+			System.out.println("Test Failed");
+		
+		driver.close();
 
 
 
