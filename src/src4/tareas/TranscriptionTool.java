@@ -24,10 +24,12 @@ public class TranscriptionTool {
 		WebElement loginButton = driver.findElement(By.id("R1_ctl02_btnSubmit"));
 		
 		usernameField.sendKeys("arobledo");
-		passwordField.sendKeys("Itzayana1227!");
+		passwordField.sendKeys("Aimee1s1t");
 		loginButton.click();
 		
-		WebElement loggedInMessage = driver.findElement(By.xpath("//label[text()='Cowboys Testing(0009)']"));
+		driver.manage().timeouts().implicitlyWait(30000, TimeUnit.SECONDS);
+		String projectName = "Cowboys Testing(0009)";
+		WebElement loggedInMessage = driver.findElement(By.xpath("//label[text()='"+ projectName +"']"));
 		if (loggedInMessage.getText().equals("Cowboys Testing(0009)"))
 			System.out.println("Test Passed");
 		else
